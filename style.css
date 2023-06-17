@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+
+body {
+  background-color: rgb(71, 91, 79);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(204, 171, 154);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 16px;
+  margin-top: 16px;
+  color: rgb(128, 140, 126);
+}
+
+.select-title {
+  line-height: 48px;
+  font-weight: 700;
+  color: rgb(204, 171, 154);
+}
+
+input[type="file"] {
+  background-color: rgb(204, 171, 154);
+  border-radius: 3px;
+}
+
+input[name="file"] {
+  border: 1px solid rgb(230, 213, 205, 1);
+  text-align: center;
+  padding: 10px;
+  color: #232d27;
+}
+
+.thumb {
+  height: 50%;
+  margin-top: 32px;
+  visibility: hidden;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  cursor: pointer;
+  margin-right: 24px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 32px;
+  background: rgb(230, 213, 205, 1);
+  color: rgb(71, 91, 79);
+  transition: all 0.3s ease-in;
+}
+
+.buttons:hover {
+  background: rgb(128, 140, 126);
+  color: white;
+}
+
+.buttons:focus {
+  background: rgb(128, 140, 126);
+  color: rgb(230, 213, 205, 1);
+}
+
+.loading-message {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(115, 126, 113, 1);
+  border: 2px solid rgb(128, 140, 126);
+  padding: 32px;
+}
