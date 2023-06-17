@@ -2,13 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 
 body {
   background-color: rgb(71, 91, 79);
-  font-family: 'Times New Roman', Times, serif;
   color: rgb(204, 171, 154);
 }
 
@@ -48,7 +48,7 @@ input[name="file"] {
 }
 
 .controls {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -59,7 +59,6 @@ input[name="file"] {
   align-items: center;
   color: #fff;
   font-size: 18px;
-  font-family: Arial, sans-serif;
 }
 
 .buttons {
@@ -85,7 +84,6 @@ input[name="file"] {
 }
 
 .loading-message {
-  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
   color: rgb(115, 126, 113, 1);
