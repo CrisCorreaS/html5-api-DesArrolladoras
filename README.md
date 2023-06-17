@@ -23,7 +23,6 @@ El repositorio está estructurado de la siguiente manera:
 - **index.html**: Archivo HTML que contiene la estructura del reproductor de video.
 - **style.css**: Archivo CSS que define los estilos del reproductor de video y la botonera.
 - **script.js**: Archivo JavaScript que contiene la lógica de carga y reproducción del video, así como el control de la botonera.
-- **video/**: Carpeta que contiene el archivo de video a reproducir.
 
 ### Uso
 - Clona este repositorio en tu máquina local: `git clone https://github.com/CrisCorreaS/html5-api-DesArrolladoras.git`
