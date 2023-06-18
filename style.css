@@ -35,7 +35,7 @@ input[type="file"] {
 }
 
 input[name="file"] {
-  border: 1px solid rgb(230, 213, 205, 1);
+  border: 1px solid rgb(230, 213, 205);
   text-align: center;
   padding: 10px;
   color: #232d27;
@@ -68,7 +68,7 @@ input[name="file"] {
   padding: 10px;
   border-radius: 5px;
   font-size: 32px;
-  background: rgb(230, 213, 205, 1);
+  background: rgb(230, 213, 205);
   color: rgb(71, 91, 79);
   transition: all 0.3s ease-in;
 }
@@ -80,13 +80,13 @@ input[name="file"] {
 
 .buttons:focus {
   background: rgb(128, 140, 126);
-  color: rgb(230, 213, 205, 1);
+  color: rgb(230, 213, 205);
 }
 
 .loading-message {
   font-size: 32px;
   font-weight: 700;
-  color: rgb(115, 126, 113, 1);
+  color: rgb(115, 126, 113);
   border: 2px solid rgb(128, 140, 126);
   padding: 32px;
 }
