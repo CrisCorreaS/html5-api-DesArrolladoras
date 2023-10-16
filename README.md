@@ -1,4 +1,6 @@
 # html5-api-DesArrolladoras
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-violet) <br/>
+<br/>
 Este repositorio contiene el código fuente de un reproductor de video que carga y reproduce un archivo de video local utilizando las opciones permitidas por el API Media Source. Fue desarrollado como parte del ejercicio de laboratorio del curso "Desarrollo Full-Stack (Nivel 3) ED.2022" del programa Samsung DesArrolladoras.
 
 ### Características
